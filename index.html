@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body class="div0">
+    <main  class="div1">
+        <section class="screen">
+            <h1 id="totalTag" ></h1>
+            <h3 id="lastProcess"></h3>
+        </section>
+        <section class="touch">
+            <table style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+  class="touchTable">
+                <tr>  
+                    <td  onclick="screen('')" colspan="2">C</td>
+                    <td  onclick="del()">&larr;</td>
+                    <td  onclick="touchValue('/')">/</td>
+                </tr>
+                <tr>
+                    <td  onclick="touchValue('7')">7</td>
+                    <td  onclick="touchValue('8')">8</td>
+                    <td  onclick="touchValue('9')">9</td>
+                    <td  onclick="touchValue('*')">x</td>
+                </tr>
+                <tr>
+                    <td  onclick="touchValue('4')">4</td>
+                    <td  onclick="touchValue('5')">5</td> 
+                    <td  onclick="touchValue('6')">6</td>
+                    <td  onclick="touchValue('-')">-</td>
+                </tr>
+                <tr>
+                    <td  onclick="touchValue('1')">1</td>
+                    <td  onclick="touchValue('2')">2</td>
+                    <td  onclick="touchValue('3')">3</td>
+                    <td  onclick="touchValue('+')">+</td>
+                </tr>
+                <tr>
+                    <td  onclick="touchValue('0')" colspan="2">0</td>
+                    <td  onclick="touchValue('.')">.</td>
+                    <td  onclick="equal()">=</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
